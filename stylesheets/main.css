@@ -54,14 +54,13 @@ padding: 0;
 }
 
 body#galeria{
-background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/PATRON.gif);
+background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/PATRONDARK.gif);
 background-repeat:repeat;
 overflow-y:hidden;
 height:100%;
 width: 100%;
 text-align:center;
 align-content:center;
-
 /*background: #d7d7c1;*/
 }
 
