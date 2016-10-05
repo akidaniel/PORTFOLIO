@@ -219,6 +219,27 @@ background: transparent url("https://dl.dropboxusercontent.com/u/74509233/TRABAJ
 
 .piedefoto {color:#ffffff; font-size:22px; font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif}
 
+
+/*BOTON BACK TO TOP*/
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: url("https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_TOP.svg") no-repeat center 43%;
+	
+}
+a:hover.back-to-top {
+	-moz-filter: hue-rotate(0deg) saturate(0.2) brightness(1.35);
+-o-filter: hue-rotate(0deg) saturate(0.2) brightness(1.35);
+-ms-filter: hue-rotate(0deg) saturate(0.2) brightness(1.35);
+-webkit-filter:hue-rotate(0deg) saturate(0.2) brightness(1.35);
+filter:hue-rotate(0deg) saturate(0.2) brightness(1.35);
+}
 /*ICONOS GALERIA*/
 div.icono {
 position: relative;
