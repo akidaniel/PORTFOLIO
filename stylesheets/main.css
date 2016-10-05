@@ -115,11 +115,7 @@ font-size: 30px;
 font-weight: 200;
 line-height: 38px;
 color: #D7D7C1;
-text-align: center;
-padding: 30px 30px 10px 30px;
-right: 40px;
-top: 25px;
-position: absolute;
+margin:0 auto;
 letter-spacing: 2px;
 }
  
