@@ -109,6 +109,20 @@ left:0;
 right:0;
 font-weight: 300;
 }
+
+h4{font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+font-size: 30px;
+font-weight: 200;
+line-height: 38px;
+color: #D7D7C1;
+text-align: center;
+padding: 30px 30px 10px 30px;
+left: 0;
+right: 60px;
+top: 70px;
+position: absolute;
+letter-spacing: 2px;
+}
  
 /*BOTON VOLVER*/
 
