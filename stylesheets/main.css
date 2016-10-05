@@ -439,8 +439,11 @@ background-size:cover;
 .POST_item:nth-child(1){top:0px; left:38px;}
 .POST_item:nth-child(2){top:0px; left:175px;}
 .POST_item:nth-child(3){top:138px; left:38px;}
-.POST_item:nth-child(4){left:175px; top:138px;}
+.POST_item:nth-child(4){top:138px; left:175px;}
 .POST_item:nth-child(5){top:276px;left:175px;}
+.POST_item:nth-child(6){top:414px;left:38px;}
+.POST_item:nth-child(7){top:414px;left:175px;}
+.POST_item:nth-child(8){top:552px;left:38px;}
 
 /*.EXTRAS_item:nth-child(1){top:0px; left:38px;}
 .EXTRAS_item:nth-child(2){top:0px;left:175px;}
@@ -598,17 +601,21 @@ height:145px;
 
 .ILU{left:2px; top:155px;}
 .ILU_item:nth-child(1){top:5px; left:2px;}
-.ILU_item:nth-child(2){left:155px; top:5px;}
-.ILU_item:nth-child(3){left:308px;top:5px;}
-.ILU_item:nth-child(4){left:155px; top:158px;}
-.ILU_item:nth-child(5){left:308px; top:158px;}
+.ILU_item:nth-child(2){top:5px; left:155px;}
+.ILU_item:nth-child(3){top:5px; left:308px;}
+.ILU_item:nth-child(4){top:158px; left:155px;}
+.ILU_item:nth-child(5){top:158px; left:308px;}
+
 
 .POST {top:155px; left:155px;}
-.POST_item:nth-child(1){left:2px; top:5px;}
+.POST_item:nth-child(1){top:5px; left:2px;}
 .POST_item:nth-child(2){top:5px; left:155px;}
 .POST_item:nth-child(3){top:5px; left:308px;}
-.POST_item:nth-child(4){left:2px; top:158px;}
-.POST_item:nth-child(5){left:308px; top:158px;}
+.POST_item:nth-child(4){top:158px; left:2px;}
+.POST_item:nth-child(5){top:158px; 	left:308px;}
+.POST_item:nth-child(6){top:311px; left:2px;}
+.POST_item:nth-child(7){top:311px; left:155px;}
+.POST_item:nth-child(8){top:311px; left:308px;}
 
 .NEWSLETTERS{top:155px; left:308px;}
 
@@ -671,10 +678,10 @@ height:256px;
 
 .ILU{left:80px; top:317px;}
 .ILU_item:nth-child(1){top:45px; left:80px;}
-.ILU_item:nth-child(2){left:357px; top:45px;}
-.ILU_item:nth-child(3){left:634px;top:45px;}
-.ILU_item:nth-child(4){left:357px;}
-.ILU_item:nth-child(5){left:634px;}
+.ILU_item:nth-child(2){top:45px; left:357px;}
+.ILU_item:nth-child(3){top:45px; left:634px;}
+.ILU_item:nth-child(4){top:317px; left:357px;}
+.ILU_item:nth-child(5){top:317px; left:634px;}
 
 .POST {top:317px; left:357px;}
 .POST_item:nth-child(1){left:80px; top:40px;}
@@ -682,6 +689,9 @@ height:256px;
 .POST_item:nth-child(3){top:40px; left:636px;}
 .POST_item:nth-child(4){left:80px; top:317px;}
 .POST_item:nth-child(5){left:636px; top:317px;}
+.POST_item:nth-child(6){top:595px; left:80px;}
+.POST_item:nth-child(7){top:595px; left:357px;}
+.POST_item:nth-child(8){top:595px; left:634px;}
 
 .NEWSLETTERS {top:317px; left:634px;} 
 
