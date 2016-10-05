@@ -710,11 +710,21 @@ width:auto;
 
 /*Responsive Newsletters page*/
 @media only screen and (max-width: 640px)  {
-	body[yahoo] .ANCHO {width:440px!important; padding:0px;!important; }
-	body[yahoo] .CUADRO {width:220px!important; padding:0px;!important; }
-	}
+body[yahoo] .ANCHO {width:440px!important; padding:0px;!important; }
+body[yahoo] .CUADRO {width:220px!important; padding:0px;!important; }
+}
 @media only screen and (max-width: 540px) {
-	body[yahoo] .ANCHO {width:300px!important; padding:0;}
-	body[yahoo] .CUADRO {width:140px!important; padding:0px;}
-	}
+body[yahoo] .ANCHO {width:300px!important; padding:0;}
+body[yahoo] .CUADRO {width:140px!important; padding:0px;}
+div.icono:after{
+position:absolute;
+content:" ";
+left:0;
+top:0;
+width:100%;
+bottom:0;
+z-index:9999;
+}
+}
+
 	
