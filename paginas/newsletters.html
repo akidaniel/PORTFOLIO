@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial scale=1.0"/>
 <meta charset="utf-8" />
 <head>
-
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 <!--ICONO TITLE -->
 <link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/FAVICONES.ico/FAVICON.ico" type="image/x-icon" />
 <!-- FIN ICONO TITLE -->
@@ -16,27 +16,7 @@
 <link rel="icon" href="https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/FAVICONES.ico/FAVICON.ico" type="image/x-icon">
 <!--FIN ICONO PESTANA-->
 <link type="text/css" rel="stylesheet" href="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/stylesheets/main.css"/>
-<script type="text/javascript">
-// create the back to top button
-$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 
-var amountScrolled = 300;
-
-$(window).scroll(function() {
-	if ( $(window).scrollTop() > amountScrolled ) {
-		$('a.back-to-top').fadeIn('slow');
-	} else {
-		$('a.back-to-top').fadeOut('slow');
-	}
-});
-
-$('a.back-to-top, a.simple-back-to-top').click(function() {
-	$('html, body').animate({
-		scrollTop: 0
-	}, 700);
-	return false;
-});
-</script>
 <title>Newsletters</title>
 
 </head >
@@ -86,7 +66,7 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 </a>
 </div>
  <h1>Newsletters</h1>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="ANCHO" style="max-width: 580px;"> 
+<table id="main" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="ANCHO" style="max-width: 580px;"> 
 <!-- <tr>
 <td ><img src="https://lh4.googleusercontent.com/-qCTICu38YAI/UxiGtmoLZvI/AAAAAAAAEPw/aM0P3l1FgZQ/s15-no/M_15X15.gif" alt=""width="10" height="10" align="center" border="0" style="display:block"/>
 </td>
@@ -260,7 +240,25 @@ CABECERA
 </tr>
 <!--FIN CUADRO 7-->
 
+<script type="text/javascript">
+// create the back to top button
+$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+var amountScrolled = 300;
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
 
+$('a.back-to-top, a.simple-back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+</script>
 </table>
 
 <!--<div class="BACK" onClick="history.go(-1);return true;"></div>-->
