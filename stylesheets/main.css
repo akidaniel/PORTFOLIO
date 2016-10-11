@@ -41,7 +41,7 @@ to {opacity:1;}
 
 	
 body#inicio {
-background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/PATRON.gif);
+background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/PATRON.gif);
 background-repeat:repeat;
 /*overflow-y:hidden;*/
 height:100%;
@@ -54,7 +54,7 @@ padding: 0;
 }
 
 body#galeria{
-background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/PATRONDARK.gif);
+background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/PATRONDARK.gif);
 background-repeat:repeat;
 overflow-y:hidden;
 height:100%;
@@ -134,7 +134,7 @@ right:0;
 padding:0px;
 background-repeat:no-repeat;
 cursor: pointer;
-background-image: url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_X2.svg);
+background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_X2.svg);
 }
 
 /*BOTON HOME*/
@@ -152,7 +152,7 @@ right:0;
 padding:0px;
 background-repeat:no-repeat;
 cursor: pointer;
-background-image: url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_INICIO.svg);
+background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_INICIO.svg);
 }
 
 
@@ -171,21 +171,21 @@ cursor: pointer;
 
 }
 .FCBK {
-background-image: url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_FCBK2.svg);
+background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_FCBK2.svg);
 margin-right: 203px;
 }
 .TWITTER {
-background-image: url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_TWITTER2.svg);
+background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_TWITTER2.svg);
 margin-right:141px;
 }
 
 .GPLUS {
-background-image: url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_GPLUS2.svg);
+background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_GPLUS2.svg);
 margin-right:79px;
 }
 
 .MAIL {
-background-image: url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_MAIL.svg);
+background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_MAIL.svg);
 margin-right:17px;
 }	
 
@@ -201,7 +201,7 @@ text-decoration: none;
 height: 40px;
 width: 40px;
 text-indent:-9999px;
-background: transparent url("https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/avance.gif") no-repeat left top;
+background: transparent url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/avance.gif") no-repeat left top;
 background-size:cover;
 }
   
@@ -213,7 +213,7 @@ top: 30px;
 right: 50px;
 height: 40px;
 width: 40px;
-background: transparent url("https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/avance.gif") no-repeat right top;
+background: transparent url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/avance.gif") no-repeat right top;
  background-size:cover;
 }
 
@@ -230,7 +230,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: url("https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_TOP.svg") no-repeat center 43%;
+	background: url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_TOP.svg") no-repeat center 43%;
 	
 }
 a:hover.back-to-top {
@@ -267,7 +267,7 @@ width: 100%;
 height: 100%;
 display: none;
 text-align:center;
-background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/PATRONDARK.gif);
+background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/PATRONDARK.gif);
 z-index: 8500;
 opacity:1;  
 }
@@ -322,7 +322,7 @@ border-radius: 2px;
   text-decoration: none;
   height: 40px;
   width: 40px;
- background: transparent url("https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/avance.gif") no-repeat left top;
+ background: transparent url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/avance.gif") no-repeat left top;
  background-size:cover;
   }
 
@@ -394,37 +394,37 @@ padding:0;}
 
 
 
-.CATA {background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_CAT.svg);
+.CATA {background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_CAT.svg);
 left:38px; }
 
-.FOLLETO{background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_FLL.svg);
+.FOLLETO{background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_FLL.svg);
 left:175px;
 }
-.CONTEST{background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_CNC.svg);
+.CONTEST{background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_CNC.svg);
 left:38px;
 top:138px;
 }
-.ILU{background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_ILU.svg);
+.ILU{background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_ILU.svg);
 left:175px;
 top:138px;
 }
 .POST {
-background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_PST.svg);
+background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_PST.svg);
 left:38px;
 top:276px;
 }
 
-.NEWSLETTERS {background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_NWLT.svg);
+.NEWSLETTERS {background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_NWLT.svg);
 top:276px;
 left:175px;}
 
 
-.EXTRAS {background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_XT.svg);
+.EXTRAS {background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_XT.svg);
 top:414px;
 left:38px;
 }
 
-.CONTACTO {background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_CONTACT.svg);
+.CONTACTO {background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_CONTACT.svg);
 top:414px;
 left:175px;
 }
@@ -490,7 +490,7 @@ background-size:cover;
 filter:hue-rotate(0deg) saturate(0.2) brightness(1.35);
 }
 .CATA.active, .FOLLETO.active, .CONTEST.active, .ILU.active, .POST.active, .EXTRAS.active, .NEWSLETTERS:active, .CONTACTO:active {
-background-image:url(https://dl.dropboxusercontent.com/u/74509233/TRABAJOS/BOTONES/BT_X2.svg);
+background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_X2.svg);
 -moz-filter: hue-rotate(0deg) saturate(1.2) brightness(0.95);
 -o-filter: hue-rotate(0deg) saturate(1.2) brightness(0.95);
 -ms-filter: hue-rotate(0deg) saturate(1.2) brightness(0.95);
