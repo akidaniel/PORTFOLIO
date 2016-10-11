@@ -706,7 +706,8 @@ height:40px;
 
 /*BOTON VOLVER*/
 
-.BACK{
+.BACK{width:40px;
+height:40px;
 margin-top: 30px;
 margin-right: 5px;
 }
