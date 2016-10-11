@@ -685,44 +685,7 @@ float: left;
 h3 span { 
 font: normal 16px/20px Helvetica, Sans-Serif;
 }
-/*.pre {
-right: 95px;
-}
-.post {
-right: 50px;
-}
-/*BOTON HOME
-.HOME {
-margin-right: 5px;
-margin-top:30px;
-}
 
-/*BOTON VOLVER
-
-.BACK{
-margin-top: 30px;
-margin-right: 5px;
-}
-	
-/*BOTON SOCIAL
-.FCBK, .TWITTER, .GPLUS, .MAIL {
-margin-right: 5px;
-}
-.FCBK {
-margin-top:100px;
-
-}
-.TWITTER {
-margin-top:145px;
-}
-
-.GPLUS {
-margin-top:190px;
-}
-
-.MAIL {
-margin-top:235px;
-}*/	
 .CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 width:250px;
 height:256px;
