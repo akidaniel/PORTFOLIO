@@ -687,27 +687,19 @@ font: normal 16px/20px Helvetica, Sans-Serif;
 }
 .pre {
 right: 95px;
-height: 40px;
-width: 40px;
 }
 .post {
 right: 50px;
-height: 40px;
-width: 40px;
-
 }
 /*BOTON HOME*/
 .HOME {
 margin-right: 5px;
 margin-top:30px;
-width:40px;
-height:40px;
 }
 
 /*BOTON VOLVER*/
 
-.BACK{width:40px;
-height:40px;
+.BACK{
 margin-top: 30px;
 margin-right: 5px;
 }
@@ -715,8 +707,6 @@ margin-right: 5px;
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .GPLUS, .MAIL {
 margin-right: 5px;
-width:40px;
-height:40px;
 }
 .FCBK {
 margin-top:100px;
