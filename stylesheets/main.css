@@ -392,8 +392,6 @@ margin:auto;
 padding:0;}
 
 
-
-
 .CATA {background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_CAT.svg);
 left:38px; }
 
@@ -564,19 +562,27 @@ h1 {padding:0; line-height: 10px;
 }
 h2 {font-size:24px; line-height: 30px;}
 
+.piedefoto {font-size:14px;}
+
+.pre {right: 126px;
+height: 50px;
+width: 50px;}
+.post {right: 65px;
+height: 50px;
+width: 50px;}
 /*BOTON HOME*/
 .HOME {
 margin-right: 5px;
 margin-top:30px;
-width:40px;
-height:40px;
+width:50px;
+height:50px;
 }
-
-.piedefoto {font-size:14px;}
 
 /*BOTON VOLVER*/
 
 .BACK{
+width:50px;
+height:50px;
 margin-top: 30px;
 margin-right: 5px;
 }
@@ -584,23 +590,23 @@ margin-right: 5px;
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .GPLUS, .MAIL {
 margin-right: 5px;
-width:40px;
-height:40px;
+width:50px;
+height:50px;
 }
 .FCBK {
 margin-top:100px;
 
 }
 .TWITTER {
-margin-top:145px;
+margin-top:160px;
 }
 
 .GPLUS {
-margin-top:190px;
+margin-top:220px;
 }
 
 .MAIL {
-margin-top:235px;
+margin-top:280px;
 }	
 	
 .CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
@@ -679,7 +685,42 @@ float: left;
 h3 span { 
 font: normal 16px/20px Helvetica, Sans-Serif;
 }
+/*BOTON HOME*/
+.HOME {
+margin-right: 5px;
+margin-top:30px;
+width:40px;
+height:40px;
+}
 
+/*BOTON VOLVER*/
+
+.BACK{
+margin-top: 30px;
+margin-right: 5px;
+}
+	
+/*BOTON SOCIAL*/
+.FCBK, .TWITTER, .GPLUS, .MAIL {
+margin-right: 5px;
+width:40px;
+height:40px;
+}
+.FCBK {
+margin-top:100px;
+
+}
+.TWITTER {
+margin-top:145px;
+}
+
+.GPLUS {
+margin-top:190px;
+}
+
+.MAIL {
+margin-top:235px;
+}	
 .CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 width:250px;
 height:256px;
