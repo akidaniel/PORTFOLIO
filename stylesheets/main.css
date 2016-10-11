@@ -685,6 +685,17 @@ float: left;
 h3 span { 
 font: normal 16px/20px Helvetica, Sans-Serif;
 }
+.pre {
+right: 95px;
+height: 40px;
+width: 40px;
+}
+.post {
+right: 50px;
+height: 40px;
+width: 40px;
+
+}
 /*BOTON HOME*/
 .HOME {
 margin-right: 5px;
