@@ -23,7 +23,7 @@ text-align:center;
 table {border-collapse: collapse;}
 /*a:hover, a:visited{color: grey; text-decoration: none;}	
 a:focus {width:0px;height:0px;outline:0px;}
-a:active{color:black;} 
+a:active{color:black;} */
 
 
 
@@ -45,7 +45,7 @@ background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/bo
 background-repeat:repeat;
 /*overflow-y:hidden;*/
 height:100%;
-width: 100%;
+/*width: 100%;*/
 text-align:center;
 align-content:center;
 margin: 0;
@@ -365,9 +365,9 @@ border-radius: 2px;
   }
 /*CSS CATÁLOGOS */
 
-#publitas-embed-w6ggs11ttq, #publitas-embed-1xx90vk4mlm, #publitas-embed-ehxr1tjqizl, #publitas-embed-jspbsohkdss, #publitas-embed-r143ane1nz, #publitas-embed-stol3skxk1, #publitas-embed-k4f730ige0e, #publitas-embed-y66sdx9dl1r, #publitas-embed-ksm012d068d,  #publitas-embed-cxh9mh658pk, #publitas-embed-w419fvio62s, #publitas-embed-gb5a2i2ot, #publitas-embed-b1xcl3bdqk, #publitas-embed-9ec72ckdoy7, #publitas-embed-o53yslu9gek, #publitas-embed-b01vi995k8t, #publitas-embed-lk2ysq4f0ir, #publitas-embed-dlmk7qirqr4, #publitas-embed-604wqtw8xy2 {display: none;}
+#publitas-embed-z8i2ns2meon #publitas-embed-w6ggs11ttq, #publitas-embed-1xx90vk4mlm, #publitas-embed-ehxr1tjqizl, #publitas-embed-jspbsohkdss, #publitas-embed-r143ane1nz, #publitas-embed-stol3skxk1, #publitas-embed-k4f730ige0e, #publitas-embed-y66sdx9dl1r, #publitas-embed-ksm012d068d,  #publitas-embed-cxh9mh658pk, #publitas-embed-w419fvio62s, #publitas-embed-gb5a2i2ot, #publitas-embed-b1xcl3bdqk, #publitas-embed-9ec72ckdoy7, #publitas-embed-o53yslu9gek, #publitas-embed-b01vi995k8t, #publitas-embed-lk2ysq4f0ir, #publitas-embed-dlmk7qirqr4, #publitas-embed-604wqtw8xy2 {display: none;}
 
-#publitas-embed-w6ggs11ttq:target, #publitas-embed-1xx90vk4mlm:target, #publitas-embed-ehxr1tjqizl:target, #publitas-embed-jspbsohkdss:target, #publitas-embed-r143ane1nz:target, #publitas-embed-stol3skxk1:target, #publitas-embed-k4f730ige0e:target, #publitas-embed-y66sdx9dl1r:target, #publitas-embed-ksm012d068d:target, #publitas-embed-cxh9mh658pk:target, #publitas-embed-w419fvio62s:target, #publitas-embed-gb5a2i2ot:target, #publitas-embed-b1xcl3bdqk:target, #publitas-embed-9ec72ckdoy7:target, #publitas-embed-o53yslu9gek:target, #publitas-embed-b01vi995k8t:target, #publitas-embed-lk2ysq4f0ir:target, #publitas-embed-dlmk7qirqr4:target, #publitas-embed-604wqtw8xy2:target {display: block;}
+#publitas-embed-z8i2ns2meon #publitas-embed-w6ggs11ttq:target, #publitas-embed-1xx90vk4mlm:target, #publitas-embed-ehxr1tjqizl:target, #publitas-embed-jspbsohkdss:target, #publitas-embed-r143ane1nz:target, #publitas-embed-stol3skxk1:target, #publitas-embed-k4f730ige0e:target, #publitas-embed-y66sdx9dl1r:target, #publitas-embed-ksm012d068d:target, #publitas-embed-cxh9mh658pk:target, #publitas-embed-w419fvio62s:target, #publitas-embed-gb5a2i2ot:target, #publitas-embed-b1xcl3bdqk:target, #publitas-embed-9ec72ckdoy7:target, #publitas-embed-o53yslu9gek:target, #publitas-embed-b01vi995k8t:target, #publitas-embed-lk2ysq4f0ir:target, #publitas-embed-dlmk7qirqr4:target, #publitas-embed-604wqtw8xy2:target {display: block;}
 
 /*FIN CSS CATÁLOGOS*/
 	
@@ -550,6 +550,7 @@ transform: rotateY(0deg);
 /* and (min-height:490px)*/
 article, footer {width:500px;}
 
+	
 div.icono {
 float: left;
 }
