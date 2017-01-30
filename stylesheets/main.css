@@ -201,7 +201,7 @@ background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/b
 z-index: 1500;
 position: absolute;
 top: 30px;
-right: 95px;
+right: 110px;
 text-decoration: none;
 height: 52px;
 width: 52px;
@@ -215,7 +215,7 @@ z-index: 1500;
 position: absolute;
 text-indent:-9999px;
 top: 30px;
-right: 50px;
+/*right: 50px;*/
 height: 52px;
 width: 52px;
 background: transparent url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/avance.gif") no-repeat right top;
