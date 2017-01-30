@@ -561,8 +561,7 @@ h3 span {
 font: normal 16px/20px Helvetica, Sans-Serif;
 }
 
-h1 {padding:0; line-height: 10px;
-}
+
 h2 {font-size:24px; line-height: 30px;}
 
 .piedefoto {font-size:14px;}
@@ -660,6 +659,8 @@ height:145px;
 /* and (min-height:600px)*/
 article, footer {width:1010px;}
 
+h1 {padding:0; line-height: 10px;
+}
 
 div.icono {
 float: left;
