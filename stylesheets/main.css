@@ -155,38 +155,39 @@ cursor: pointer;
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_INICIO.svg);
 }
 
+.SOCIAL {
+position:absolute;
+top:0;
+left: 50%;
+margin-left: -125px;
+margin-top:5px;
+width: 250px;
+display: flex;
+justify-content: space-between;}
 
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .GPLUS, .MAIL {z-index: 9500;
-position: absolute;
 display:block;
-top:0;
-right:0;
-margin-top:5px;
 text-indent:-9999px;
 width:52px;
 height:52px;
 background-repeat:no-repeat;
 cursor: pointer;
-
 }
 .FCBK {
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_FCBK2.svg);
-margin-right: 203px;
 }
+
 .TWITTER {
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_TWITTER2.svg);
-margin-right:141px;
 }
 
 .GPLUS {
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_GPLUS2.svg);
-margin-right:79px;
 }
 
 .MAIL {
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_MAIL.svg);
-margin-right:17px;
 }	
 
 
@@ -262,7 +263,7 @@ margin:0 auto;
 .popup {
 position: absolute;
 top: 0;
-padding-top:30px;
+padding-top:80px;
 width: 100%;
 height: 100%;
 display: none;
@@ -367,7 +368,7 @@ border-radius: 2px;
 
 #publitas-embed-z8i2ns2meon, #publitas-embed-w6ggs11ttq, #publitas-embed-1xx90vk4mlm, #publitas-embed-ehxr1tjqizl, #publitas-embed-jspbsohkdss, #publitas-embed-r143ane1nz, #publitas-embed-stol3skxk1, #publitas-embed-k4f730ige0e, #publitas-embed-y66sdx9dl1r, #publitas-embed-ksm012d068d,  #publitas-embed-cxh9mh658pk, #publitas-embed-w419fvio62s, #publitas-embed-gb5a2i2ot, #publitas-embed-b1xcl3bdqk, #publitas-embed-9ec72ckdoy7, #publitas-embed-o53yslu9gek, #publitas-embed-b01vi995k8t, #publitas-embed-lk2ysq4f0ir, #publitas-embed-dlmk7qirqr4, #publitas-embed-604wqtw8xy2 {display: none;}
 
-#publitas-embed-z8i2ns2meon, #publitas-embed-w6ggs11ttq:target, #publitas-embed-1xx90vk4mlm:target, #publitas-embed-ehxr1tjqizl:target, #publitas-embed-jspbsohkdss:target, #publitas-embed-r143ane1nz:target, #publitas-embed-stol3skxk1:target, #publitas-embed-k4f730ige0e:target, #publitas-embed-y66sdx9dl1r:target, #publitas-embed-ksm012d068d:target, #publitas-embed-cxh9mh658pk:target, #publitas-embed-w419fvio62s:target, #publitas-embed-gb5a2i2ot:target, #publitas-embed-b1xcl3bdqk:target, #publitas-embed-9ec72ckdoy7:target, #publitas-embed-o53yslu9gek:target, #publitas-embed-b01vi995k8t:target, #publitas-embed-lk2ysq4f0ir:target, #publitas-embed-dlmk7qirqr4:target, #publitas-embed-604wqtw8xy2:target {display: block;}
+#publitas-embed-z8i2ns2meon:target, #publitas-embed-w6ggs11ttq:target, #publitas-embed-1xx90vk4mlm:target, #publitas-embed-ehxr1tjqizl:target, #publitas-embed-jspbsohkdss:target, #publitas-embed-r143ane1nz:target, #publitas-embed-stol3skxk1:target, #publitas-embed-k4f730ige0e:target, #publitas-embed-y66sdx9dl1r:target, #publitas-embed-ksm012d068d:target, #publitas-embed-cxh9mh658pk:target, #publitas-embed-w419fvio62s:target, #publitas-embed-gb5a2i2ot:target, #publitas-embed-b1xcl3bdqk:target, #publitas-embed-9ec72ckdoy7:target, #publitas-embed-o53yslu9gek:target, #publitas-embed-b01vi995k8t:target, #publitas-embed-lk2ysq4f0ir:target, #publitas-embed-dlmk7qirqr4:target, #publitas-embed-604wqtw8xy2:target {display: block;}
 
 /*FIN CSS CATÁLOGOS*/
 	
@@ -588,27 +589,7 @@ margin-top: 30px;
 margin-right: 5px;
 }
 	
-/*BOTON SOCIAL*/
-.FCBK, .TWITTER, .GPLUS, .MAIL {
-margin-right: 5px;
-width:50px;
-height:50px;
-}
-.FCBK {
-margin-top:100px;
 
-}
-.TWITTER {
-margin-top:160px;
-}
-
-.GPLUS {
-margin-top:220px;
-}
-
-.MAIL {
-margin-top:280px;
-}	
 	
 .CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 width:145px;
@@ -687,6 +668,40 @@ h3 span {
 font: normal 16px/20px Helvetica, Sans-Serif;
 }
 
+
+.SOCIAL {
+top:45px;
+margin-right: 5px;
+width:60px;
+height:250px;
+left:auto;
+right: 0;
+margin-left: 0px;
+display: block;
+}
+/*BOTON SOCIAL*/
+.FCBK, .TWITTER, .GPLUS, .MAIL {
+width:50px;
+height:50px;
+margin-bottom:16px;
+}
+
+/*.FCBK {
+margin-top:100px;
+
+}
+.TWITTER {
+margin-top:160px;
+}
+
+.GPLUS {
+margin-top:220px;
+}
+
+.MAIL {
+margin-top:280px;
+}	*/
+
 .CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 width:250px;
 height:256px;
@@ -749,7 +764,9 @@ padding-top:100px;
 border-radius:40px; 
 font-size:20px;
 }
-
+.popup {
+padding-top:30px;
+}
 .popup img {
 padding: 10px;
 width:auto;
