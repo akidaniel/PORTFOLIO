@@ -203,8 +203,8 @@ position: absolute;
 top: 30px;
 right: 95px;
 text-decoration: none;
-height: 40px;
-width: 40px;
+height: 52px;
+width: 52px;
 text-indent:-9999px;
 background: transparent url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/avance.gif") no-repeat left top;
 background-size:cover;
@@ -216,8 +216,8 @@ position: absolute;
 text-indent:-9999px;
 top: 30px;
 right: 50px;
-height: 40px;
-width: 40px;
+height: 52px;
+width: 52px;
 background: transparent url("https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/avance.gif") no-repeat right top;
  background-size:cover;
 }
@@ -298,9 +298,14 @@ border-radius: 2px;
 }
 
 /*SLIDER*/
+.SLIDER {position: relative;
+margin: auto;
+width: 100px;
+left: 60px;
+top: -20px;}
 
 .rslides {
-	 position: relative;
+ position: relative;
   overflow: hidden;
   width: 100%;
   padding: 0;
@@ -570,12 +575,12 @@ h2 {font-size:24px; line-height: 30px;}
 
 .piedefoto {font-size:14px;}
 
-.pre {right: 126px;
-height: 50px;
-width: 50px;}
-.post {right: 65px;
-height: 50px;
-width: 50px;}
+.pre {right: 75px;
+height: 52px;
+width: 52px;}
+.post {right: 15px;
+height: 52px;
+width: 52px;}
 
 
 /*BOTON HOME
