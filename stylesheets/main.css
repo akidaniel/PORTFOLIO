@@ -119,7 +119,7 @@ margin:0 auto;
 letter-spacing: 2px;
 }
  
-/*BOTON VOLVER*/
+/*BOTON VOLVER
 
 .BACK {z-index: 9510;
 display:block;
@@ -137,7 +137,7 @@ cursor: pointer;
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_X2.svg);
 }
 
-/*BOTON HOME*/
+/*BOTON HOME
 
 .HOME {
 display:block;
@@ -153,27 +153,31 @@ padding:0px;
 background-repeat:no-repeat;
 cursor: pointer;
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_INICIO.svg);
-}
+}*/
 
 .SOCIAL {
 position:absolute;
 top:0;
 left: 50%;
-margin-left: -125px;
+margin-left: -140px;
 margin-top:5px;
-width: 250px;
+width: 280px;
 display: flex;
 justify-content: space-between;}
 
 /*BOTON SOCIAL*/
-.FCBK, .TWITTER, .GPLUS, .MAIL {z-index: 9500;
+.FCBK, .TWITTER, .GPLUS, .MAIL, .BACK, .HOME {z-index: 9500;
 display:block;
 text-indent:-9999px;
-width:52px;
-height:52px;
+width:50px;
+height:50px;
 background-repeat:no-repeat;
 cursor: pointer;
 }
+.HOME {background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_INICIO.svg)}
+
+.BACK {background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_X.svg)}
+
 .FCBK {
 background-image: url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_FCBK2.svg);
 }
@@ -572,7 +576,9 @@ width: 50px;}
 .post {right: 65px;
 height: 50px;
 width: 50px;}
-/*BOTON HOME*/
+
+
+/*BOTON HOME
 .HOME {
 margin-right: 15px;
 margin-top:30px;
@@ -580,14 +586,14 @@ width:50px;
 height:50px;
 }
 
-/*BOTON VOLVER*/
+/*BOTON VOLVER
 
 .BACK{
 width:50px;
 height:50px;
 margin-top: 30px;
 margin-right: 15px;
-}
+}*/
 	
 
 	
@@ -683,7 +689,7 @@ display: block;
 }
 
 /*BOTON SOCIAL*/
-.FCBK, .TWITTER, .GPLUS, .MAIL {
+.FCBK, .TWITTER, .GPLUS, .MAIL, .HOME, .BACK {
 width:50px;
 height:50px;
 margin-bottom:16px;
