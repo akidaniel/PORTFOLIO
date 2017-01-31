@@ -163,10 +163,11 @@ margin-left: -140px;
 margin-top:5px;
 width: 280px;
 display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+z-index: 9500;}
 
 /*BOTON SOCIAL*/
-.FCBK, .TWITTER, .GPLUS, .MAIL, .BACK, .HOME {z-index: 9500;
+.FCBK, .TWITTER, .GPLUS, .MAIL, .BACK, .HOME {
 display:block;
 text-indent:-9999px;
 width:50px;
