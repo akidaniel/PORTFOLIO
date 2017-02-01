@@ -715,31 +715,31 @@ width:250px;
 height:256px;
 }
 
-.CATA {left:80px;top:40px;}
+.CATA {top:40px; left:80px;}
 .CATA_item:nth-child(1){top:45px; left:357px;}
 .CATA_item:nth-child(2){top:45px; left:636px;}
 .CATA_item:nth-child(3){top:325px; left:80px;}
 .CATA_item:nth-child(4){top:325px; left:357px;}
 .CATA_item:nth-child(5){top:325px; left:636px;}
 
-.FOLLETO{left: 357px; top:40px;}
+.FOLLETO{top:40px; left: 357px; }
 .FOLLETO_item:nth-child(1){top:45px; left:80px;}
 .FOLLETO_item:nth-child(2){top:45px; left:636px;}
 .FOLLETO_item:nth-child(3){top:325px; left:80px;}
 .FOLLETO_item:nth-child(4){top:325px; left:357px;}
 .FOLLETO_item:nth-child(5){top:325px; left:636px;}
-.FOLLETO_item:nth-child(6){top:604px; left:80px;}
-.FOLLETO_item:nth-child(7){top:604px; left:357px;}
-.FOLLETO_item:nth-child(8){top:604px; left:636px;}
+.FOLLETO_item:nth-child(6){top:602px; left:80px;}
+.FOLLETO_item:nth-child(7){top:602px; left:357px;}
+.FOLLETO_item:nth-child(8){top:602px; left:636px;}
 
-.CONTEST{left:634px; top:40px;}
+.CONTEST{top:40px; left:634px; }
 .CONTEST_item:nth-child(1){top:45px; left:80px;}
 .CONTEST_item:nth-child(2){top:45px; left:357px;}
 .CONTEST_item:nth-child(3){top:325px; left:80px;}
 .CONTEST_item:nth-child(4){top:325px; left:357px; }
 .CONTEST_item:nth-child(5){top:325px;}
 
-.ILU{left:80px; top:317px;}
+.ILU{top:317px; left:80px; }
 .ILU_item:nth-child(1){top:45px; left:80px;}
 .ILU_item:nth-child(2){top:45px; left:357px;}
 .ILU_item:nth-child(3){top:45px; left:636px;}
@@ -752,18 +752,18 @@ height:256px;
 .POST_item:nth-child(3){top:45px; left:636px;}
 .POST_item:nth-child(4){top:325px; left:80px;}
 .POST_item:nth-child(5){top:325px; left:636px;}
-.POST_item:nth-child(6){top:604px; left:80px;}
-.POST_item:nth-child(7){top:604px; left:357px;}
-.POST_item:nth-child(8){top:604px; left:636px;}
-.POST_item:nth-child(9){top:872px; left:80px;}
-.POST_item:nth-child(10){top:872px; left:357px;}
-.POST_item:nth-child(11){top:872px; left:636px;}
+.POST_item:nth-child(6){top:602px; left:80px;}
+.POST_item:nth-child(7){top:602px; left:357px;}
+.POST_item:nth-child(8){top:602px; left:636px;}
+.POST_item:nth-child(9){top:885px; left:80px;}
+.POST_item:nth-child(10){top:885px; left:357px;}
+.POST_item:nth-child(11){top:885px; left:636px;}
 
 .NEWSLETTERS {top:317px; left:636px;} 
 
-.EXTRAS {top:604px; left:357px;}
+.EXTRAS {top:594px; left:357px;}
 
-.CONTACTO {top:604px; left:636px;}
+.CONTACTO {top:594px; left:636px;}
 
 .cara {
 padding-top:100px; 
