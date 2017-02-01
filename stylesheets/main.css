@@ -494,7 +494,7 @@ background-size:cover;
 .EXTRAS_item:nth-child(2){top:0px;left:175px;}
 .EXTRAS_item:nth-child(3){top:138px; left:38px;}
 .EXTRAS_item:nth-child(4){left:175px; top:138px;}
-.EXTRAS_item:nth-child(5){top:276px; left:38px;}*/
+.EXTRAS_item:nth-child(5){top:276px; left:38px;}
 
 .CATA:hover, .FOLLETO:hover, .CONTEST:hover, .ILU:hover, .POST:hover, .EXTRAS:hover, .NEWSLETTERS:hover, .CONTACTO:hover {
 -moz-filter: hue-rotate(0deg) saturate(0.2) brightness(1.35);
@@ -502,7 +502,69 @@ background-size:cover;
 -ms-filter: hue-rotate(0deg) saturate(0.2) brightness(1.35);
 -webkit-filter:hue-rotate(0deg) saturate(0.2) brightness(1.35);
 filter:hue-rotate(0deg) saturate(0.2) brightness(1.35);
+}*/
+
+.CATA:hover {
+-moz-filter: hue-rotate(320deg) saturate(30) brightness(1.2);
+-o-filter: hue-rotate(320deg) saturate(30) brightness(1.2);
+-ms-filter: hue-rotate(320deg) saturate(30) brightness(1.2);
+-webkit-filter:hue-rotate(320deg) saturate(30) brightness(1.2);
+filter:hue-rotate(320deg) saturate(30) brightness(1.2);
 }
+
+.FOLLETO:hover {
+-moz-filter: hue-rotate(175deg) saturate(100) brightness(2);
+-o-filter: hue-rotate(175deg) saturate(100) brightness(2);
+-ms-filter: hue-rotate(175deg) saturate(100) brightness(2);
+-webkit-filter:hue-rotate(175deg) saturate(100) brightness(2);
+filter:hue-rotate(175deg) saturate(100) brightness(2);
+}
+.CONTEST:hover {
+-moz-filter: hue-rotate(150deg) saturate(100) brightness(1);
+-o-filter: hue-rotate(150deg) saturate(100) brightness(1);
+-ms-filter: hue-rotate(150deg) saturate(100) brightness(1);
+-webkit-filter:hue-rotate(150deg) saturate(100) brightness(1);
+filter:hue-rotate(150deg) saturate(100) brightness(1);
+}
+.ILU:hover {
+-moz-filter: hue-rotate(184deg) saturate(100) brightness(0.7);
+-o-filter: hue-rotate(184deg) saturate(100) brightness(0.7);
+-ms-filter: hue-rotate(184deg) saturate(100) brightness(0.7);
+-webkit-filter:hue-rotate(184deg) saturate(100) brightness(0.7);
+filter:hue-rotate(184deg) saturate(100) brightness(0.7);
+}
+.POST:hover {
+-moz-filter: hue-rotate(325deg) saturate(70) brightness(2);
+-o-filter: hue-rotate(325deg) saturate(70) brightness(2);
+-ms-filter: hue-rotate(325deg) saturate(70) brightness(2);
+-webkit-filter:hue-rotate(325deg) saturate(70) brightness(2);
+filter:hue-rotate(325deg) saturate(70) brightness(2);
+}
+.EXTRAS:hover {
+-moz-filter: hue-rotate(0deg) saturate(100) brightness(1.2);
+-o-filter: hue-rotate(0deg) saturate(100) brightness(1.2);
+-ms-filter: hue-rotate(0deg) saturate(100) brightness(1.2);
+-webkit-filter:hue-rotate(0deg) saturate(100) brightness(1.2);
+filter:hue-rotate(0deg) saturate(100) brightness(1.2);
+}
+.NEWSLETTERS:hover {
+-webkit-clip-path: inset(5% 6% 6% 6%);
+clip-path: inset(5% 6% 6% 6%);
+-moz-filter: hue-rotate(75deg) saturate(10) brightness(1);
+-o-filter: hue-rotate(75deg) saturate(10) brightness(1);
+-ms-filter: hue-rotate(75deg) saturate(10) brightness(1);
+-webkit-filter:hue-rotate(75deg) saturate(10) brightness(1);
+filter:hue-rotate(75deg) saturate(10) brightness(1);
+
+}
+.CONTACTO:hover {
+-moz-filter: hue-rotate(254deg) saturate(100) brightness(1.35);
+-o-filter: hue-rotate(254deg) saturate(100) brightness(1.35);
+-ms-filter: hue-rotate(254deg) saturate(100) brightness(1.35);
+-webkit-filter:hue-rotate(254deg) saturate(100) brightness(1.35);
+filter:hue-rotate(254deg) saturate(100) brightness(1.35);
+}
+
 .CATA.active, .FOLLETO.active, .CONTEST.active, .ILU.active, .POST.active, .EXTRAS.active, .NEWSLETTERS:active, .CONTACTO:active {
 background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/BT_X2.svg);
 -moz-filter: hue-rotate(0deg) saturate(1.2) brightness(0.95);
