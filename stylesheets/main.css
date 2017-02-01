@@ -548,8 +548,6 @@ filter:hue-rotate(325deg) saturate(70) brightness(2);
 filter:hue-rotate(0deg) saturate(100) brightness(1.2);
 }
 .NEWSLETTERS:hover {
--webkit-clip-path: inset(5% 6% 6% 6%);
-clip-path: inset(5% 6% 6% 6%);
 -moz-filter: hue-rotate(75deg) saturate(10) brightness(1);
 -o-filter: hue-rotate(75deg) saturate(10) brightness(1);
 -ms-filter: hue-rotate(75deg) saturate(10) brightness(1);
