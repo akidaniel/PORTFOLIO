@@ -534,11 +534,11 @@ filter:hue-rotate(150deg) saturate(100) brightness(1);
 filter:hue-rotate(184deg) saturate(100) brightness(0.7);
 }
 .POST:hover {
--moz-filter: hue-rotate(325deg) saturate(70) brightness(2);
--o-filter: hue-rotate(325deg) saturate(70) brightness(2);
--ms-filter: hue-rotate(325deg) saturate(70) brightness(2);
--webkit-filter:hue-rotate(325deg) saturate(70) brightness(2);
-filter:hue-rotate(325deg) saturate(70) brightness(2);
+-moz-filter: hue-rotate(325deg) saturate(90) brightness(2);
+-o-filter: hue-rotate(325deg) saturate(90) brightness(2);
+-ms-filter: hue-rotate(325deg) saturate(90) brightness(2);
+-webkit-filter:hue-rotate(325deg) saturate(90) brightness(2);
+filter:hue-rotate(325deg) saturate(90) brightness(2);
 }
 .EXTRAS:hover {
 -moz-filter: hue-rotate(0deg) saturate(100) brightness(1.2);
