@@ -715,55 +715,55 @@ width:250px;
 height:256px;
 }
 
-.CATA {left:80px;top:43px;}
-.CATA_item:nth-child(1){top:43px; left:357px;}
-.CATA_item:nth-child(2){top:43px; left:636px;}
+.CATA {left:80px;top:40px;}
+.CATA_item:nth-child(1){top:45px; left:357px;}
+.CATA_item:nth-child(2){top:45px; left:636px;}
 .CATA_item:nth-child(3){top:325px; left:80px;}
 .CATA_item:nth-child(4){top:325px; left:357px;}
 .CATA_item:nth-child(5){top:325px; left:636px;}
 
-.FOLLETO{left: 357px; top:43px;}
-.FOLLETO_item:nth-child(1){top:43px; left:80px;}
-.FOLLETO_item:nth-child(2){top:43px; left:636px;}
+.FOLLETO{left: 357px; top:40px;}
+.FOLLETO_item:nth-child(1){top:45px; left:80px;}
+.FOLLETO_item:nth-child(2){top:45px; left:636px;}
 .FOLLETO_item:nth-child(3){top:325px; left:80px;}
 .FOLLETO_item:nth-child(4){top:325px; left:357px;}
 .FOLLETO_item:nth-child(5){top:325px; left:636px;}
-.FOLLETO_item:nth-child(6){top:601px; left:80px;}
-.FOLLETO_item:nth-child(7){top:601px; left:357px;}
-.FOLLETO_item:nth-child(8){top:601px; left:636px;}
+.FOLLETO_item:nth-child(6){top:604px; left:80px;}
+.FOLLETO_item:nth-child(7){top:604px; left:357px;}
+.FOLLETO_item:nth-child(8){top:604px; left:636px;}
 
-.CONTEST{left:634px; top:43px;}
-.CONTEST_item:nth-child(1){top:43px; left:80px;}
-.CONTEST_item:nth-child(2){top:43px; left:357px;}
+.CONTEST{left:634px; top:40px;}
+.CONTEST_item:nth-child(1){top:45px; left:80px;}
+.CONTEST_item:nth-child(2){top:45px; left:357px;}
 .CONTEST_item:nth-child(3){top:325px; left:80px;}
 .CONTEST_item:nth-child(4){top:325px; left:357px; }
 .CONTEST_item:nth-child(5){top:325px;}
 
 .ILU{left:80px; top:317px;}
-.ILU_item:nth-child(1){top:43px; left:80px;}
-.ILU_item:nth-child(2){top:43px; left:357px;}
-.ILU_item:nth-child(3){top:43px; left:636px;}
+.ILU_item:nth-child(1){top:45px; left:80px;}
+.ILU_item:nth-child(2){top:45px; left:357px;}
+.ILU_item:nth-child(3){top:45px; left:636px;}
 .ILU_item:nth-child(4){top:325px; left:357px;}
 .ILU_item:nth-child(5){top:325px; left:636px;}
 
 .POST {top:317px; left:357px;}
-.POST_item:nth-child(1){top:43px; left:80px;}
-.POST_item:nth-child(2){top:43px; left:357px;}
-.POST_item:nth-child(3){top:43px; left:636px;}
+.POST_item:nth-child(1){top:45px; left:80px;}
+.POST_item:nth-child(2){top:45px; left:357px;}
+.POST_item:nth-child(3){top:45px; left:636px;}
 .POST_item:nth-child(4){top:325px; left:80px;}
 .POST_item:nth-child(5){top:325px; left:636px;}
-.POST_item:nth-child(6){top:601px; left:80px;}
-.POST_item:nth-child(7){top:601px; left:357px;}
-.POST_item:nth-child(8){top:601px; left:636px;}
+.POST_item:nth-child(6){top:604px; left:80px;}
+.POST_item:nth-child(7){top:604px; left:357px;}
+.POST_item:nth-child(8){top:604px; left:636px;}
 .POST_item:nth-child(9){top:872px; left:80px;}
 .POST_item:nth-child(10){top:872px; left:357px;}
 .POST_item:nth-child(11){top:872px; left:636px;}
 
-.NEWSLETTERS {top:325px; left:636px;} 
+.NEWSLETTERS {top:317px; left:636px;} 
 
-.EXTRAS {top:601px; left:357px;}
+.EXTRAS {top:604px; left:357px;}
 
-.CONTACTO {top:594px; left:636px;}
+.CONTACTO {top:604px; left:636px;}
 
 .cara {
 padding-top:100px; 
