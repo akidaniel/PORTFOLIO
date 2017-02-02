@@ -372,7 +372,8 @@ a.powertiny b, a.powertiny em{
 
 /* - - - Responsive - - - */
 
-
+#wufoo-m7v9uzt0ulmakc {
+    width: 80% !important;}
 
 @media only screen and (max-width: 480px) {
 	html{
@@ -383,3 +384,9 @@ a.powertiny b, a.powertiny em{
 	}
 }
 
+@media only screen and (min-width:880px){
+/* and (min-height:600px)*/
+#wufoo-m7v9uzt0ulmakc {
+    width: 60% !important;}
+
+}
