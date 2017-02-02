@@ -372,6 +372,13 @@ a.powertiny b, a.powertiny em{
 
 /* - - - Responsive - - - */
 
+#wufoo-m7v9uzt0ulmakc {
+    width: 40% !important;}
+	
+input.medium, select.medium {
+    width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
 	html{
 		background-color:#d7d7c1;
@@ -384,5 +391,9 @@ a.powertiny b, a.powertiny em{
 @media only screen and (min-width:880px){
 /* and (min-height:600px)*/
 #wufoo-m7v9uzt0ulmakc {
-    width: 70% !important;}
+    width: 60% !important;}
+	
+input.medium, select.medium {
+    width: 100%;
+}
 }
