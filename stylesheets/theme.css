@@ -383,6 +383,6 @@ a.powertiny b, a.powertiny em{
 
 @media only screen and (min-width:880px){
 /* and (min-height:600px)*/
-.embed #container {
+#container {
     width: 70% !important;}
 }
