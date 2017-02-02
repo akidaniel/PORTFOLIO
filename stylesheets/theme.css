@@ -374,7 +374,10 @@ a.powertiny b, a.powertiny em{
 
 #wufoo-m7v9uzt0ulmakc {
     width: 40% !important;}
-	
+.field text medium {width:100%}
+#Field1	{
+    width: 100%;
+}
 input.medium, select.medium {
     width: 100%;
 }
@@ -392,7 +395,7 @@ input.medium, select.medium {
 /* and (min-height:600px)*/
 #wufoo-m7v9uzt0ulmakc {
     width: 60% !important;}
-	
+.field text medium {width:100%}
 input.medium, select.medium {
     width: 100%;
 }
