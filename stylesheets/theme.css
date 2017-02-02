@@ -372,15 +372,7 @@ a.powertiny b, a.powertiny em{
 
 /* - - - Responsive - - - */
 
-#wufoo-m7v9uzt0ulmakc {
-    width: 40% !important;}
-.field text medium {width:100%}
-#Field1	{
-    width: 100%;
-}
-input.medium, select.medium {
-    width: 100%;
-}
+
 
 @media only screen and (max-width: 480px) {
 	html{
@@ -391,12 +383,3 @@ input.medium, select.medium {
 	}
 }
 
-@media only screen and (min-width:880px){
-/* and (min-height:600px)*/
-#wufoo-m7v9uzt0ulmakc {
-    width: 60% !important;}
-.field text medium {width:100%}
-input.medium, select.medium {
-    width: 100%;
-}
-}
