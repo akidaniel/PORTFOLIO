@@ -1,0 +1,385 @@
+/* ----- Logo ----- */
+
+#logo a {
+	background-image:url('../images/wflogo.png'); 
+	min-height:0;
+	height:40px;
+}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wflogo.png", sizingMethod="crop");
+}
+
+/* ----- Backgrounds ----- */
+html{
+	background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/PATRON.gif);	background-color:#eeeeee;
+}
+#logo{
+	background-image:url(https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/PATRONDARK.gif);	background-color:#dedede;
+}
+#container, html.embed{
+	background-color:#d7d7c1;
+}
+.safari .wufoo input.file{
+	background:none;
+	border:none;
+}
+
+.wufoo li.focused{
+	background-color:#b3b4a1;
+}
+.wufoo .instruct{
+	background-color:#d7d7c1;
+}
+
+/* ----- Borders ----- */
+#container{
+	border:0 solid #ffffff;
+}
+.wufoo .info, .wufoo .paging-context{
+	border-bottom:0 solid #717169;
+}
+.wufoo .section h3, .wufoo .captcha, #payment .paging-context{
+	border-top:0 solid #717169;
+}
+.wufoo input.text, .wufoo textarea.textarea{
+
+}
+.wufoo .instruct{
+	border:1px solid transparent;
+}
+.fixed .info{
+	border-bottom:none;
+}
+.wufoo li.section.scrollText{
+	border-color:#bbbba8;
+}
+
+/* ----- Typography ----- */
+.wufoo .info h2{
+	font-size:160%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#717169;
+}
+.wufoo .info div{
+	font-size:95%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#717169;
+}
+.wufoo .section h3{
+	font-size:110%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#717169;
+}
+.wufoo .section div{
+	font-size:85%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#717169;
+}
+
+.wufoo label.desc, .wufoo legend.desc{
+	font-size:95%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:bold;
+	color:#717169;
+}
+
+.wufoo label.choice{
+	font-size:100%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#717169;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	font-style:normal;
+	font-weight:normal;
+	color:#717169;
+	font-size:100%;
+}
+{* Custom Fonts Break Dropdown Selection in IE *}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{ 
+	font-family:inherit;
+}
+.safari .wufoo select.select{
+	background:#ffffff url(../images/fieldbg.gif) repeat-x top;
+	border:1px solid Background color 'ffffff url(../images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	border-bottom:1px solid Background color 'ffffff url(../images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	border-right:1px solid Background color 'ffffff url(../images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	font-size:100% !important;
+}
+
+
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	font-family:inherit;
+	color:#717169;
+}
+.safari .wufoo input.file{ /* Webkit */
+	font-size:100%;
+	font-family:inherit;
+	color:#717169;
+}
+.wufoo .instruct small{
+	font-size:80%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#444444;
+}
+
+.altInstruct small, li.leftHalf small, li.rightHalf small,
+li.leftThird small, li.middleThird small, li.rightThird small,
+.iphone small{
+	color:#444444 !important;
+}
+
+/* ----- Button Styles ----- */
+
+.wufoo input.btTxt{
+
+}
+
+/* ----- Highlight Styles ----- */
+
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc,
+.wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label,
+.safari .wufoo li.focused input.file{ 
+	color:#000000;
+}
+
+/* ----- Confirmation ----- */
+
+.confirm h2{
+	font-family:inherit;
+	color:#717169;
+}
+a.powertiny b, a.powertiny em{
+	color:#1a1a1a !important;
+}
+.embed a.powertiny b, .embed a.powertiny em{
+	color:#1a1a1a !important;
+}
+
+/* ----- Pagination ----- */
+
+.pgStyle1 var, .pgStyle2 var, .pgStyle2 em, .page1 .pgStyle2 var, .pgStyle1 b, .wufoo .buttons .marker{
+	font-family:inherit;
+	color:#717169;
+}
+.pgStyle1 var, .pgStyle2 td{
+	border:1px solid #acac9a;
+}
+.pgStyle1 .done var{
+	background:#acac9a;
+}
+
+.pgStyle1 .selected var, .pgStyle2 var, .pgStyle2 var em{
+	background:#b3b4a1;
+	color:#000000;
+}
+.pgStyle1 .selected var{
+	border:1px solid #a1a291;
+}
+
+.buttons button, .buttons button:hover{
+	color:#000000;
+}
+
+/* Likert Backgrounds */
+
+.likert table{
+	background-color:#d7d7c1;
+}
+.likert thead td, .likert thead th{
+	background-color:#c2c2ae;
+}
+.likert tbody tr.alt td, .likert tbody tr.alt th{
+	background-color:#ceceb9;
+}
+
+/* Likert Borders */
+
+.likert table, .likert th, .likert td{
+	border-color:#bbbba8;
+}
+.likert td{
+	border-left:1px solid #acac9a;
+}
+
+/* Likert Typography */
+
+.likert caption, .likert thead td, .likert tbody th label{
+	color:#717169;
+	font-family:inherit;
+}
+.likert tbody td label{
+	color:#808079;
+	font-family:inherit;
+}
+.likert caption, .likert tbody th label{
+	font-size:95%;
+}
+
+/* Likert Hover */
+
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label{
+	background-color:#b3b4a1;
+	color:#000000;
+}
+.likert tbody tr:hover td{
+	border-left:1px solid #8f9081;
+}
+
+/* ----- Running Total ----- */
+
+.wufoo #lola{
+	background:#c2c2ae;
+}
+.wufoo #lola tbody td{
+	border-bottom:1px solid #acac9a;
+}
+.wufoo #lola{
+	font-family:inherit;
+	color:#717169;
+}
+.wufoo #lola tfoot th{
+	color:#8d8d87;
+}
+
+/* ----- Report Styles ----- */
+
+.wufoo .wfo_graph h3{
+	font-size:95%;
+	font-family:inherit;
+	color:#717169;
+}
+.wfo_txt, .wfo_graph h4{
+	color:#717169;
+}
+.wufoo .footer h4{
+	color:#717169;
+}
+.wufoo .footer span{
+	color:#717169;
+}
+
+/* ----- Number Widget ----- */
+
+.wfo_number{
+	background-color:#ceceb9;
+	border-color:#bbbba8;
+}
+.wfo_number strong, .wfo_number em{
+	color:#000000;
+}
+
+/* ----- Chart Widget Border and Background Colors ----- */
+
+#widget, #widget body{
+	background:#d7d7c1;
+}
+.fcNav a.show{
+	background-color:#d7d7c1;
+	border-color:#acac9a;
+}
+.fc table{
+	border-left:1px solid #bbbba8;	
+}
+.fc thead th, .fc .more th{
+	background-color:#bbbba8 !important;
+	border-right:1px solid #acac9a !important;
+}
+.fc tbody td, .fc tbody th, .fc tfoot th, .fc tfoot td{
+	background-color:#d7d7c1;
+	border-right:1px solid #acac9a;
+	border-bottom:1px solid #bbbba8;
+}
+.fc tbody tr.alt td, .fc tbody tr.alt th, .fc tbody td.alt{
+	background-color:#ceceb9;
+}
+
+/* ----- Chart Widget Typography Colors ----- */
+
+.fc caption, .fcNav, .fcNav a{
+	color:#717169;
+}
+.fc tfoot, 
+.fc thead th,
+.fc tbody th div, 
+.fc tbody td.count, .fc .cards tbody td a, .fc td.percent var,
+.fc .timestamp span{
+	color:#000000;
+}
+.fc .indent .count{
+	color:#76766f;
+}
+.fc .cards tbody td a span{
+	color:#9c9c97;
+}
+
+/* ----- Chart Widget Hover Colors ----- */
+
+.fc tbody tr:hover td, .fc tbody tr:hover th,
+.fc tfoot tr:hover td, .fc tfoot tr:hover th{
+	background-color:#b3b4a1;
+}
+.fc tbody tr:hover th div, .fc tbody tr:hover td, .fc tbody tr:hover var,
+.fc tfoot tr:hover th div, .fc tfoot tr:hover td, .fc tfoot tr:hover var{
+	color:#000000;
+}
+
+/* ----- Payment Summary ----- */
+
+.invoice thead th, 
+.invoice tbody th, .invoice tbody td,
+.invoice tfoot th,
+.invoice .total,
+.invoice tfoot .last th, .invoice tfoot .last td,
+.invoice tfoot th, .invoice tfoot td{
+	border-color:#bbbba8;
+}
+.invoice thead th, .wufoo .checkNotice{
+	background:#ceceb9;
+}
+.invoice th, .invoice td{
+	color:#000000;
+}
+#ppSection, #ccSection{
+	border-bottom:0 solid #717169;
+}
+#shipSection, #invoiceSection{
+	border-top:0 solid #717169;
+}
+
+/* Drop Shadows */
+#container{
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-o-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
+/* - - - Local Fonts - - - */
+
+/* - - - Responsive - - - */
+
+@media only screen and (max-width: 480px) {
+	html{
+		background-color:#d7d7c1;
+	}
+	a.powertiny b, a.powertin em{
+		color:#1a1a1a !important;
+	}
+}
+
+/* - - - Custom Theme - - - */
+
