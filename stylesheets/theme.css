@@ -372,8 +372,11 @@ a.powertiny b, a.powertiny em{
 
 /* - - - Responsive - - - */
 
+
+/* - - - Custom Theme - - - */
 #wufoo-m7v9uzt0ulmakc {
-    width: 80% !important;}
+    width: 90% !important;
+	margin: 0 auto;}
 
 @media only screen and (max-width: 480px) {
 	html{
