@@ -3,11 +3,11 @@ $(document).ready(function() {
 $(".CATA").click(function(){
 if($('#BT01').css('visibility')== 'hidden'){
 	$('#BT01').css('visibility','visible');
-  $(".FOLLETO, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','hidden');
+  $(".FOLLETO, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','hidden');
 	}
 else{
 $('#BT01').css('visibility','hidden');
-$(".FOLLETO, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','visible');
+$(".FOLLETO, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','visible');
 }
     if($(this).hasClass('active')){
         $(this).removeClass('active')
