@@ -20,11 +20,11 @@ $(".FOLLETO, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css
 $(".FOLLETO").click(function(){
 if($('#BT02').css('visibility')== 'hidden'){
 	$('#BT02').css('visibility','visible');
-  $(".CATA, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','hidden');
+  $(".CATA, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','hidden');
 	}
 else{
 $('#BT02').css('visibility','hidden');
-$(".CATA, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','visible');
+$(".CATA, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','visible');
 
 }
     if($(this).hasClass('active')){
@@ -37,11 +37,11 @@ $(".CATA, .CONTEST, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibil
 $(".CONTEST").click(function(){
 if($('#BT03').css('visibility')== 'hidden'){
 	$('#BT03').css('visibility','visible');
-  $(".CATA, .FOLLETO, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','hidden');
+  $(".CATA, .FOLLETO, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','hidden');
 	}
 else{
 $('#BT03').css('visibility','hidden');
-$(".CATA, .FOLLETO, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','visible');
+$(".CATA, .FOLLETO, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','visible');
 
 }
     if($(this).hasClass('active')){
@@ -54,11 +54,11 @@ $(".CATA, .FOLLETO, .EXTRAS, .ILU, .POST, .NEWSLETTERS, .CONTACTO").css('visibil
 $(".ILU").click(function(){
 if($('#BT04').css('visibility')== 'hidden'){
 	$('#BT04').css('visibility','visible');
-  $(".CATA, .CONTEST, .EXTRAS, .FOLLETO, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','hidden');
+  $(".CATA, .CONTEST, .EXTRAS, .FOLLETO, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','hidden');
 	}
 else{
 $('#BT04').css('visibility','hidden');
-$(".CATA, .CONTEST, .EXTRAS, .FOLLETO, .POST, .NEWSLETTERS, .CONTACTO").css('visibility','visible');
+$(".CATA, .CONTEST, .EXTRAS, .FOLLETO, .POST, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','visible');
 
 }
     if($(this).hasClass('active')){
@@ -71,11 +71,11 @@ $(".CATA, .CONTEST, .EXTRAS, .FOLLETO, .POST, .NEWSLETTERS, .CONTACTO").css('vis
 $(".POST").click(function(){
 if($('#BT05').css('visibility')== 'hidden'){
 	$('#BT05').css('visibility','visible');
-  $(".CATA, .CONTEST, .EXTRAS, .ILU, .FOLLETO, .NEWSLETTERS, .CONTACTO").css('visibility','hidden');
+  $(".CATA, .CONTEST, .EXTRAS, .ILU, .FOLLETO, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','hidden');
 	}
 else{
 $('#BT05').css('visibility','hidden');
-$(".CATA, .CONTEST, .EXTRAS, .ILU, .FOLLETO, .NEWSLETTERS, .CONTACTO").css('visibility','visible');
+$(".CATA, .CONTEST, .EXTRAS, .ILU, .FOLLETO, .NEWSLETTERS, .CONTACTO, .ANI").css('visibility','visible');
 
 }
     if($(this).hasClass('active')){
