@@ -19,9 +19,7 @@ CoolClock.config = {
 	longTickDelay: 15000,
 	defaultRadius: 85,
 	renderRadius: 100,
-	defaultSkin: "chunkySwiss",
-	// Should be in skin probably...
-	// (TODO: allow skinning of digital display)
+	defaultSkin: "MiWeb",
 	showSecs: true,
 	showAmPm: true,
 
@@ -31,10 +29,10 @@ CoolClock.config = {
 outerBorder: { lineWidth: 6, radius:90, color: "#b3b4a1", alpha: 1 },
 smallIndicator: { lineWidth: 2, startAt: 80, endAt: 93, color: "#b3b4a1", alpha: 1 },
 largeIndicator: { lineWidth: 6, startAt: 70, endAt: 93, color: "#b3b4a1", alpha: 1 },
-hourHand: { lineWidth: 8, startAt: -15, endAt: 60, color: "black", alpha: 1 },
-minuteHand: { lineWidth: 5, startAt: -15, endAt: 83, color: "black", alpha: 1 },
+hourHand: { lineWidth: 8, startAt: -2, endAt: 45, color: "black", alpha: 1 },
+minuteHand: { lineWidth: 7, startAt: -1, endAt: 68, color: "black", alpha: 1 },
 secondHand: { lineWidth: 1, startAt: -20, endAt: 85, color: "#b3b4a1", alpha: 1 },
-secondDecoration: { lineWidth: 2, startAt: 0, radius: 3, fillColor: "#b3b4a1", color: "red", alpha: 1 }
+secondDecoration: { lineWidth: 2, startAt: 0, radius: 3, fillColor: "#d7d7c1", color: "red", alpha: 1 }
 		}
 	},
 

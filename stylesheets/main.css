@@ -394,7 +394,7 @@ top: -20px;}
 /*FIN CSS CATÁLOGOS*/
 
 
-.CATA, .FOLLETO, .CONTEST, .ILU, .POST, .EXTRAS, .NEWSLETTERS, .CONTACTO {
+.CATA, .FOLLETO, .CONTEST, .ILU, .POST, .EXTRAS, .NEWSLETTERS, .CONTACTO, .ANI {
 display:block;
 position: absolute;
 top:0px;
@@ -449,6 +449,8 @@ left:38px;
 top:414px;
 left:175px;
 }
+
+.ANI {display:none}
 
 .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 display:inline-block;
@@ -681,7 +683,7 @@ margin-right: 15px;
 	
 
 	
-.CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
+.CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .ANI, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 width:145px;
 height:145px;
 }
@@ -787,7 +789,7 @@ margin-bottom:16px;
 }
 
 
-.CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
+.CATA, .FOLLETO, .CONTEST, .POST, .ILU, .EXTRAS, .NEWSLETTERS, .CONTACTO, .ANI, .CATA_item, .FOLLETO_item, .CONTEST_item, .POST_item, .ILU_item, .EXTRAS_item, .NEWSLETTERS_item, .CONTACTO_item {
 width:250px;
 height:256px;
 }
@@ -841,6 +843,8 @@ height:256px;
 .EXTRAS {top:594px; left:277px;}
 
 .CONTACTO {top:594px; left:556px;}
+
+.ANI {top:594px; left:0px; display:block;}
 
 .cara {
 padding-top:100px; 
